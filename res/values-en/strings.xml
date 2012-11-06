@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CCT Help</string>
+    <string name="titulo">Vector Class Try out</string>
+    <string name="ValorVectores">Vector Values</string>
+    <string name="Vector1">Vector 1 ( x / y )</string>
+    <string name="Vector2">Vector 2 ( x / y )</string>
+    <string name="btncalculo">Solve</string>
+    <string name="sumamodulos">Sum of modules</string>
+    <string name="sumaangulos">Sum of angles</string>
+    <string name="restamodulos">Different of modules</string>
+    <string name="restaangulos">Different of angles</string>
+    <string name="txtResultadosSuma">Sum result</string>
+    <string name="txtresultadosResta">Different result</string>
+</resources>

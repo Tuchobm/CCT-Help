@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+	<TextView android:textAppearance="?android:attr/textAppearanceLarge" 
+		android:layout_height="wrap_content" 
+		android:layout_width="wrap_content" 
+		android:id="@+id/textView1" 
+		android:text="@string/titulo" 
+		android:paddingBottom="10dp">
+		<requestFocus></requestFocus>
+	</TextView>
+
+	<TextView android:textAppearance="?android:attr/textAppearanceMedium" 
+		android:layout_height="wrap_content" 
+		android:layout_width="wrap_content" 
+		android:text="@string/Vector1" 
+		android:id="@+id/textView2">
+	</TextView>
+
+	<LinearLayout android:layout_height="wrap_content" 
+			android:id="@+id/linearLayout1" 
+			android:layout_width="fill_parent">
+	    
+	    <EditText android:layout_height="wrap_content" 
+	    	android:layout_width="158dp" 
+	    	android:id="@+id/etVector1x"
+	    	android:inputType="number"
+	    	android:singleLine="true">
+	    </EditText>
+	    
+	    <EditText android:layout_height="wrap_content" 
+	    	android:layout_width="wrap_content" 
+	    	android:layout_weight="1" 
+	    	android:id="@+id/etVector1y"
+	    	android:inputType="number"
+	    	android:singleLine="true">
+	    </EditText>
+	
+	</LinearLayout>
+
+	<TextView android:textAppearance="?android:attr/textAppearanceMedium" 
+		android:layout_height="wrap_content" 
+		android:layout_width="wrap_content" 
+		android:id="@+id/textView3" 
+		android:text="@string/Vector2">
+	</TextView>
+
+	<LinearLayout android:layout_height="wrap_content" 
+		android:id="@+id/linearLayout2" 
+		android:layout_width="fill_parent">
+		
+    	<EditText android:layout_height="wrap_content" 
+    		android:layout_width="158dp" 
+    		android:id="@+id/etVector2x"
+    		android:inputType="number"
+	    	android:singleLine="true">
+    	</EditText>
+    
+    	<EditText android:layout_height="wrap_content" 
+    		android:layout_width="wrap_content" 
+    		android:layout_weight="1" 
+    		android:id="@+id/etVector2y"
+    		android:inputType="number"
+	    	android:singleLine="true">
+    	</EditText>
+
+	</LinearLayout>
+
+	<LinearLayout
+	    android:id="@+id/linearLayout3"
+	    android:layout_width="fill_parent"
+	    android:layout_height="10dp"
+	    android:orientation="vertical" 
+	    android:background="@drawable/linea">
+	</LinearLayout>
+	
+	<TextView android:textAppearance="?android:attr/textAppearanceMedium" 
+		android:text="" 
+		android:layout_height="wrap_content" 
+		android:layout_width="wrap_content" 
+		android:id="@+id/textView4">
+	</TextView>
+
+	<Button android:id="@+id/button1" 
+		android:text="@string/btncalculo" 
+		android:layout_height="wrap_content" 
+		android:layout_width="wrap_content">
+	</Button>
+
+	<TextView android:id="@+id/textResult" 
+		android:layout_width="wrap_content" 
+		android:text="TextView" 
+		android:textAppearance="?android:attr/textAppearanceLarge" 
+		android:layout_height="wrap_content">
+	</TextView>
+	
+	<EditText android:layout_height="wrap_content" 
+		android:layout_width="wrap_content" 
+		android:id="@+id/editText1">
+	</EditText>
+
+	<Button
+	    android:id="@+id/button2"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="Listactivity" />
+
+</LinearLayout>
+

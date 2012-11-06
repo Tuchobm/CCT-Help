@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="CARP: Cálculo punto suelta"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/tvSubTitle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="Introduce los datos solicitados"
+        android:textAppearance="?android:attr/textAppearanceMedium" android:textColor="#777777"/>
+
+    <LinearLayout
+        android:id="@+id/linearLayout19"
+        android:layout_width="fill_parent"
+        android:layout_height="10dp"
+        android:orientation="vertical" android:background="@drawable/linea">
+    </LinearLayout>
+
+
+</LinearLayout>
+</ScrollView>

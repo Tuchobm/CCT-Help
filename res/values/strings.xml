@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CCT Help</string>
+    <string name="titulo">Prueba de la Clase Vector</string>
+    <string name="ValorVectores">Valor de los vectores</string>
+    <string name="Vector1">Vector 1 ( x / y )</string>
+    <string name="Vector2">Vector 2 ( x / y )</string>
+    <string name="btncalculo">Resolver</string>
+    <string name="sumamodulos">Suma de los modulos</string>
+    <string name="sumaangulos">Suma de los ángulos</string>
+    <string name="restamodulos">Resta de los módulos</string>
+    <string name="restaangulos">Resta de los ángulos</string>
+    <string name="txtResultadosSuma">Resultados de la suma</string>
+    <string name="txtresultadosResta">Resultados de la resta</string>
+    <string name="menu_preferences">Preferences</string>
+    <string name="menu_about">Sobre ...</string>
+     
+    <string name="parachutes_prompt">Choose a planet</string>
+    <string-array name="parachutes_array">
+        <item>MT1-X</item>
+        <item>MACH-IIIA</item>
+        <item>G9</item>
+        <item>TPM+</item>
+        <item>JANUS</item>
+    </string-array>
+    
+        <string name="coeficiente_prompt">Choose a planet</string>
+    <string-array name="coeficientes_array">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+   
+</resources>
